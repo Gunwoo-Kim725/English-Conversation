@@ -1,0 +1,160 @@
+body {
+    padding: 20px 55px; /* 위/아래, 왼쪽/오른쪽에 20px의 패딩을 추가합니다 */
+}
+
+/* 제목 1 */
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+/* 제목 2 */
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(0, 112, 192);
+}
+
+/* 제목 3 */
+h3 {
+    text-align: center;
+    color: rgb(0, 176, 80);
+    font-size: 55px;
+}
+
+/* 제목 4 */
+h4 {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(222, 234, 246);
+    color: rgb(0, 112, 192);
+}
+
+/* 해설 */
+.exp {
+    font-family: inherit;
+    color: black;
+    background-color: rgb(222, 234, 246);
+    font-size: 40px;
+}
+
+/* 해석 */
+.translation {
+    color: rgb(56, 56, 56);
+    font-size: 40px;
+}
+
+/* 단어 */
+.word {
+    display: block;
+    color: rgb(56, 56, 56);
+    font-size: 40px;
+    background-color: rgb(231, 230, 230);
+}
+
+/* 링크 스타일 */
+a {
+    display: block;
+    font-size: 50px;
+    color: rgb(0, 0, 0); /* 기본 글자색 */
+    background-color: white; /* 기본 배경색 */
+    text-decoration-line: none;
+}
+
+/* 링크에 마우스를 올렸을 때 스타일 */
+a:hover {
+    background-color: rgb(0, 112, 192); /* 변경된 배경색 */
+    color: rgb(255, 255, 255); /* 변경된 글자색 */
+}
+
+/* 가로줄 */
+hr {
+    margin: 40px 0px;
+    border: none;
+    height: 10px;
+    background-color: blue;
+}
+
+/* 테이블 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 40px;
+    width: 100px;
+}
+
+.audioText {
+    padding-left: 0px;
+    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
+    font-family: Open Sans;
+    background-color: rgb(218, 233, 246);
+    color: rgb(218, 233, 246);
+    font-size: 40px;
+}
+
+.audioText:hover {
+    /* 원하는 마우스 커서 스타일을 설정하세요 */
+    cursor: pointer;
+    /* 마우스를 올렸을 때의 배경색 */
+    background-color: rgb(0, 112, 192);
+    /* 마우스를 올렸을 때의 글자색 */
+    color: rgb(255, 255, 255);
+}
+
+/* 전체 듣기 */
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+}
+
+/* 메뉴바 --------------------------------------------------------------------------- */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    padding: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu .m-btn {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.m-btn {
+    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
+    font-family: Open Sans;
+    background-color: rgb(196, 236, 212);
+    color: black;
+    font-size: 50px;
+}
+
+.m-btn:hover {
+    /* 원하는 마우스 커서 스타일을 설정하세요 */
+    cursor: pointer;
+    /* 마우스를 올렸을 때의 배경색 */
+    background-color: rgb(0, 192, 80);
+    /* 마우스를 올렸을 때의 글자색 */
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="menu">
+            <a class="m-btn" href="./index.html">HOME</a>
+        </div>
+        <!-- 유닛 제목 -->
+
+        <h2>Getting started</h2>
+        <h3>Activity 3B</h3>
+        <div class="audio-container">
+            <audio src="./mp3/Book1_000_C1.mp3" controls></audio>
+        </div>
+        <table class="conversation">
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation"> 우리가 무엇을 해야 하나요?</span>
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(0)"
+                        >What are we supposed to do?</span
+                    >
+                    <audio
+                        id="audioPlayer1"
+                        src="./mp3/Book1_000_001.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        우리는 함께 우리가 쓴 답들을 검토해야 해요. 그러면 우린
+                        토의 문제들을 토의할 수 있어요.</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(1)"
+                        >We have to go over our answers together. Then we can go
+                        through the discussion questions.</span
+                    >
+                    <audio
+                        id="audioPlayer2"
+                        src="./mp3/Book1_000_002.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="words">
+                <td></td>
+                <td>
+                    <span class="word"
+                        ><b>go over (something)</b>: 어떤 것을 수정하거나
+                        배우거나 하기 위해서 다시 보거나 연구하다 [검토하다]<br />:
+                        학생들이 각자의 답안을 확인하고 공유하는 과정</span
+                    >
+                </td>
+            </tr>
+            <tr class="words">
+                <td></td>
+                <td>
+                    <span class="word"
+                        ><b>go through sth</b>: 특히 반복함으로써 무언가를
+                        자세히 연구하거나 고려하는 것 [(특히 거듭해서) ~을
+                        검토[고려]하다]<br />: 교재에 있는 토의 문제들을
+                        세부적으로 검토하고 토의하는 과정</span
+                    >
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        다시 한번 설명해 주시겠어요?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(2)"
+                        >Can you explain that again, please?</span
+                    >
+                    <audio
+                        id="audioPlayer3"
+                        src="./mp3/Book1_000_003.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        물론이죠. 우리는 그룹으로 우리 답을 비교하고, 그런 다음
+                        우리는 이 문제들을 논의하죠.</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(3)"
+                        >Sure. We compare our answers as a group. Then we
+                        discuss these questions.</span
+                    >
+                    <audio
+                        id="audioPlayer4"
+                        src="./mp3/Book1_000_004.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        오, 알겠어요. 고마워요. 우리에게 시간이 얼마나
+                        있나요?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(4)"
+                        >Oh, I see. Thanks. How much time do we have?</span
+                    >
+                    <audio
+                        id="audioPlayer5"
+                        src="./mp3/Book1_000_005.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Ming</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        한 5분 정도요. 1번에 뭐라고 하셨어요?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(5)"
+                        >About five minutes. What do you have for number
+                        one?</span
+                    >
+                    <audio
+                        id="audioPlayer6"
+                        src="./mp3/Book1_000_006.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation"> 전 “alone”을 썼어요.</span>
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(6)"
+                        >I wrote “alone.”</span
+                    >
+                    <audio
+                        id="audioPlayer7"
+                        src="./mp3/Book1_000_007.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation"> 저도요. 밍, 당신은요?</span>
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(7)"
+                        >Me, too. How about you, Ming?</span
+                    >
+                    <audio
+                        id="audioPlayer8"
+                        src="./mp3/Book1_000_008.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Ming</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        저는 “co-”… 음… “coop-”… 이 단어를 어떻게
+                        발음하죠?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(8)"
+                        >I wrote “co-”... um... ”coop-” How do you pronounce
+                        this word?</span
+                    >
+                    <audio
+                        id="audioPlayer9"
+                        src="./mp3/Book1_000_009.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation"> Cooperation이요.</span>
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(9)"
+                        >Cooperation.</span
+                    >
+                    <audio
+                        id="audioPlayer10"
+                        src="./mp3/Book1_000_010.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        죄송해요. 다시 한번 말씀해주시겠어요?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(10)"
+                        >I’m sorry. Can you say that again, please?</span
+                    >
+                    <audio
+                        id="audioPlayer11"
+                        src="./mp3/Book1_000_011.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Hiro</b>:</span>
+                </td>
+                <td>
+                    <span class="translation"> Cooperation이요.</span>
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(11)"
+                        >Cooperation.</span
+                    >
+                    <audio
+                        id="audioPlayer12"
+                        src="./mp3/Book1_000_012.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        그 단어를 모르겠어요. 그게 무슨 뜻이죠?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(12)"
+                        >I don’t know that word. What does that mean?</span
+                    >
+                    <audio
+                        id="audioPlayer13"
+                        src="./mp3/Book1_000_013.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Ming</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        “함께 일하는 것”을 의미해요.</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(13)"
+                        >It means “working together.”</span
+                    >
+                    <audio
+                        id="audioPlayer14"
+                        src="./mp3/Book1_000_014.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Sara</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        오, 좋은 답변이네요! 그것은 철자가 어떻게 되나요?</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(14)"
+                        >Oh, good answer! How do you spell that?</span
+                    >
+                    <audio
+                        id="audioPlayer15"
+                        src="./mp3/Book1_000_015.mp3"
+                    ></audio>
+                </td>
+            </tr>
+            <tr class="Korean">
+                <td>
+                    <span class="name"><b>Ming</b>:</span>
+                </td>
+                <td>
+                    <span class="translation">
+                        C-O-O-P-E-R-A-T-I-O-N이에요.</span
+                    >
+                </td>
+            </tr>
+            <tr class="English">
+                <td></td>
+                <td>
+                    <span class="audioText" onclick="playAudio(15)"
+                        >It’s C-O-O-P-E-R-A-T-I-O-N.</span
+                    >
+                    <audio
+                        id="audioPlayer16"
+                        src="./mp3/Book1_000_016.mp3"
+                    ></audio>
+                </td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -93,6 +93,7 @@ td {
 }
 
 .audioText {
+    display: block;
     padding-left: 0px;
     transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
     font-family: Open Sans;
